@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className='flex flex-col   bg-[#E8E8EA] gap-[25px]'>
-      <div className='flex  flex-row mt-[100px]   pt-[68px] pl-[500px] gap-[249px]' >
+    <div className='flex flex-col mt-[100px] pt-[68px]  bg-[#E8E8EA] gap-[25px]'>
+      <div className='flex  flex-row    pl-[500px] gap-[249px]' >
         <div className='flex flex-col w-[289px]  ' >
             <h6 className='text-lg font-semibold text-[#181A2A]'>About</h6>
           <div className='text-base font-normal text-[#696A75]'>
@@ -25,9 +25,9 @@ export const Footer = () => {
           <img src="/linked.svg" alt="" />
         </div> 
       </div>
-      <div className='flex flex-row pl-[500px] '>
+      <div className='flex flex-row pl-[500px]  '>
         <img src="/footerlogo.png" alt="" className='w-[231px] h-[54px]' />
-        <div className='flex flex-row gap-4 pl-[623px]'>
+        <div className='flex  flex-row font-normal text-base gap-4 pl-[623px] text-[#3B3C4A]'>
            <p>Terms of use</p>
            <p>Privacy Policy</p>
            <p>Cookie Policy</p>

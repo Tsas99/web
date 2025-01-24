@@ -15,6 +15,7 @@ export default async function Home() {
         <AllPost posts={objResult} />
       </div>
       <Footer />
+      
     </div>
   );
 }
